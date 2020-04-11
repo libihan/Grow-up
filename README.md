@@ -1,6 +1,6 @@
 # Learning-Group
 
-1. How to use git
-2. Regular expression
+1. [How to use git](GitManual.md)
+2. [Regular expression](./RegularExpression)
 
-Design pattern
+TODO: Design pattern
