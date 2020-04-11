@@ -17,7 +17,7 @@
 
 ## 2. Git的工作区域 ☆
  很多人搞不清Git的命令，是因为对Git的工作区域不了解。Git共有4个工作区域：工作区、暂存区、版本库和远程仓库。
-![GitWorkArea](.attachments/GitWorkArea.jpg)
+![GitWorkArea](https://github.com/libihan/Learning-Group/blob/master/.attachments/GitWorkArea.jpg)
 > 工作区：就是当前写代码，肉眼常看到的区域
 暂存区：临时存放你的变动，`git add` 即把文件添加到暂存区
 版本库：本地安全存放数据的地方，`git commit`即把文件添加到版本库（`HEAD`）
@@ -73,7 +73,7 @@
 
 ### 3.5 合并分支
 `git merge`和`git rebase`都可用来合并分支。
-![GitMergeBranch](.attachments/GitMergeBranch.jpg)
+![GitMergeBranch](https://github.com/libihan/Learning-Group/blob/master/.attachments/GitMergeBranch.jpg)
 如上图所示：
 >`git rebase` - "复制"一系列的提交记录（C4和C5），然后在另一个地方逐个放下去。
 >- 优点：使提交树很干净， 所有的提交都在一条线上
@@ -110,7 +110,7 @@
     *`numCommits`:  ref 与 tag 相差有多少个提交记录
     *`hash`: 所给定的 ref 所表示的提交记录哈希值的前几位
     * PS. 当 ref 提交记录上有某个标签时，则只输出标签名称
-![GitTag](.attachments/GitTag.jpg)
+![GitTag](https://github.com/libihan/Learning-Group/blob/master/.attachments/GitTag.jpg)
 
 <a id="4"/>
 
@@ -125,6 +125,6 @@
 > （本地数据库的变动内容）
 > ====== 分割线 ====== 
 （远程仓库的变动内容）
-![GitFixConflict](.attachments/GitFixConflict.jpg)
+![GitFixConflict](https://github.com/libihan/Learning-Group/blob/master/.attachments/GitFixConflict.jpg)
 
 3）运行`git add .`和 `git commit -m "Merge with <branch name> and fix merge conflicts"`
